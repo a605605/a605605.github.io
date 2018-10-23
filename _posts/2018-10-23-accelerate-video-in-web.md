@@ -20,7 +20,7 @@ author: a605605
 2、接着，按`Ctrl` + `Shift` + `c`，然后将鼠标移到视频框中点一下，就会自动定位到视频播放器对应的HTML代码。
 
 <div style="text-align:center;">
-    <img src="https://note.youdao.com/yws/public/resource/caa62601cfb1124c33413b88decdc00d/xmlnote/WEBRESOURCE444f21bc33d6a1034f79104b2348bb34/61" />
+    <img src="https://note.youdao.com/yws/api/personal/file/WEBb05522aebe10aa237649e608b88e29af?method=download&shareKey=cb406f8b5f164ab4a3e10a9af73f637f" />
     <div>查看百度云网页视频播放器对应的HTML源码</div>
 </div>
 
@@ -39,7 +39,7 @@ videojs.getPlayers("video-player").html5player.tech_.setPlaybackRate(2)
 输入代码后，单击`Properties`可以看到`playbackrate`属性值变为了`2`
 
 <div style="text-align:center;">
-    <img src="https://note.youdao.com/yws/public/resource/caa62601cfb1124c33413b88decdc00d/xmlnote/WEBRESOURCE76d72eb7d120233ff7c9eeb78f59beb6/70" />
+    <img src="https://note.youdao.com/yws/api/personal/file/WEB21799255c5f35f393f4d2bbc30fe92a3?method=download&shareKey=6b9ee4addcd6ba86c1f78dfea9ad7eac" />
 </div>
 
 6、这时候，就能发现视频已经可以倍速播放了。
