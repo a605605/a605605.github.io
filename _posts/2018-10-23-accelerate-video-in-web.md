@@ -24,6 +24,7 @@ author: a605605
     <div>查看百度云网页视频播放器对应的HTML源码</div>
 </div>
 
+
 3、从图中可以看出百度云用的网页视频播放器对应的`id`和`class`都是`video-player`，这个`video-player`的子节点对应的`class`包括`video-js`因此很明显百度云使用了`video.js`作为视频播放的脚本，其`id`是`html5player`因此又能知道这是H5播放器
 
 4、既然知道了百度云视频播放使用了`video-js`，那么便可以尝试调用`video-js`库里的相关命令来达到倍速播放的效果。
@@ -40,6 +41,8 @@ videojs.getPlayers("video-player").html5player.tech_.setPlaybackRate(2)
 
 <div style="text-align:center;">
     <img src="https://note.youdao.com/yws/api/personal/file/WEB21799255c5f35f393f4d2bbc30fe92a3?method=download&shareKey=6b9ee4addcd6ba86c1f78dfea9ad7eac" />
+    <div>成功修改播放速度属性</div>
 </div>
+
 
 6、这时候，就能发现视频已经可以倍速播放了。
